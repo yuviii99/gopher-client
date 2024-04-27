@@ -332,7 +332,7 @@ def main():
     """
         Main function to run the program.
     """
-    gopher_server_host = 'comp3310.ddns.net'
+    gopher_server_host = 'gopher.server.host'
     gopher_server_port = 70
     # A set to keep track of visited selectors
     visited_paths = set()

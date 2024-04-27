@@ -106,8 +106,8 @@ def download_file(file, file_name):
                 file_data = file_data.decode('utf-8', errors='replace')
         
         # Create directory to download files if it doesn't exist.
-        os.makedirs('comp3310_gopher_server_files', exist_ok=True)
-        file_path = os.path.join('comp3310_gopher_server_files', file_name)
+        os.makedirs('gopher_server_files', exist_ok=True)
+        file_path = os.path.join('gopher_server_files', file_name)
         
         with open(file_path, mode) as f:
             f.write(file_data)
